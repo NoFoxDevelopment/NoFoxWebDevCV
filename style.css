@@ -198,12 +198,25 @@ svg path {
     stroke-dashoffset: 866; }
   100% {
     stroke-dashoffset: 0; } }
+.quickList {
+  display: block;
+  margin: auto;
+  width: 70%;
+  background-image: url("./imgs/ParchmentBackground.jpg");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: 100%; }
+
 .listItem {
+  display: inline-block;
+  margin-top: 15px;
   width: 300px;
-  height: 25px;
-  clear: left;
-  margin-left: 40%;
-  margin-top: 5px;
-  float: center; }
+  height: 20px;
+  resize: none; }
+
+.listBtn {
+  display: inline-block;
+  margin-bottom: 5px;
+  vertical-align: 36%; }
 
 /*# sourceMappingURL=style.css.map */

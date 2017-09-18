@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<title>NoFox Web Development</title>
 
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 	<script src="https://use.fontawesome.com/eccbbca379.js"></script>
 	<script src="js/quicklist.js"></script>
-
-	<link type="text/css" rel="stylesheet" href="style.css" />
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
 <body>
@@ -40,10 +40,15 @@
 	</div>
 
 	<div class="quickList">
-		<textarea class="listItem" onfocus="clearContent(this);">Enter Item Here.</textarea>&nbsp;&nbsp;<button id="clear">Clear</button>&nbsp;&nbsp;<button di="add">Add Item</button>
-		<div class="list">
-			
+		<div style="text-align:center")>
+			<textarea class="listItem" onfocus="clearContent(this);">Enter Item Here.</textarea>&nbsp;&nbsp;<button id="clear" class="listBtn" onclick="buttonClear();" style="position:relative;margin:auto;">Clear</button>&nbsp;&nbsp;<button id="add" class="listBtn" onclick="addItem();">Add Item</button>
 		</div>
+
+		<div class="list">
+
+		</div>
+
+		
 	</div>
 
 	
