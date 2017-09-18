@@ -10,6 +10,16 @@ body {
 	background-size: cover;
 }
 
+a {
+	color: #D84700;
+}
+
+canvas { 
+	background: #eee;
+	display: block;
+	margin: 0 auto;
+}
+
 .header {
 	margin: auto;
 	margin-top: 15px;
@@ -143,6 +153,30 @@ body {
     z-index: -5;
 }
 
+.quickList {
+	display: block;
+	margin: auto;
+	width: 70%;
+	background-image: url('./imgs/ParchmentBackground.jpg');
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+.listItem {
+	display: inline-block;
+	margin-top: 15px;
+	width: 300px;
+	height: 20px;
+	resize: none;
+}
+
+.listBtn {
+	display: inline-block;
+	margin-bottom: 5px;
+	vertical-align: 36%;
+}
+
 svg {
   position: absolute;
   margin-top: 2%;
@@ -233,28 +267,4 @@ svg {
   } 100% {
     stroke-dashoffset: 0;
   }
-}
-
-.quickList {
-	display: block;
-	margin: auto;
-	width: 70%;
-	background-image: url('./imgs/ParchmentBackground.jpg');
-	background-position: center;
-	background-repeat: repeat-y;
-	background-size: 100%;
-}
-
-.listItem {
-	display: inline-block;
-	margin-top: 15px;
-	width: 300px;
-	height: 20px;
-	resize: none;
-}
-
-.listBtn {
-	display: inline-block;
-	margin-bottom: 5px;
-	vertical-align: 36%;
 }
