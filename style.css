@@ -2,6 +2,7 @@
   font-family: 'Oswald', sans-serif; }
 
 body {
+  background-color: 'black';
   background-image: url("imgs/DarkBackground.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
