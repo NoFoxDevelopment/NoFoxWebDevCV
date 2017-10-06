@@ -197,8 +197,9 @@ svg {
   margin-top: 2%;
 }
 
-svg path {
+#fox {
 	fill-opacity: 0;
 	stroke: #D84700;
 	stroke-width: 1.75;
+	stroke-dashoffset: 0;
 }

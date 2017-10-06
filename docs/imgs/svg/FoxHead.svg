@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMid meet" viewBox="0 0 500 500" width="500" height="500">
-	<defs>
-		<path id="fox" 
-          fill="none" stroke="#D84700" stroke-width="3" 
-          d="M382.81 54.69L382.81 296.88 117.19 296.88 382.81 54.69ZM117.19 296.88L382.81 296.88 117.19 54.69 117.19 296.88ZM382.81 296.88L250 417.97 117.19 296.88M382.81 54.69L250 417.97 117.19 54.69M250 417.97L250 175.78M210.94 312.5L183.59 296.88M316.41 296.88L289.06 312.5M261.72 386.23L238.28 386.23"/>
-	</defs>
-	<use xlink:href="#fox" opacity="1" fill-opacity="0" stroke="#D84700" stroke-width="3" stroke-opacity="1"/>
-</svg>
