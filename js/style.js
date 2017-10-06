@@ -2,13 +2,13 @@ $(document).ready(function() {
 	$('#logoCircle').fadeIn(750);
 });
 
-var cssPath = '/css/style.css';
+var cssPath = './css/style.css';
 var version = detectIE();
 
 if (typeof window.orientation !== 'undefined') {
-	cssPath = '/css/mobile.css';
+	cssPath = './css/mobile.css';
 } else if (version != false) {
-	cssPath = '/css/ie.css';
+	cssPath = './css/ie.css';
 }
 
 function detectIE() {
