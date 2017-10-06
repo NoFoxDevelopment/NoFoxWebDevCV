@@ -23,7 +23,7 @@ var AISpeed = 2.5;
 canvas.addEventListener('mousemove', function(e) {
 	var relativeX = e.clientX - canvas.offsetLeft;
 	paddleX = relativeX - paddleWidth/2;
-});
+})
 
 function drawBall() {
 	ctx.beginPath();

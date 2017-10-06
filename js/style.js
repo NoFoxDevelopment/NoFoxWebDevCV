@@ -6,6 +6,11 @@ var cssPath = 'style.css';
 
 if (typeof window.orientation !== 'undefined') {
 	cssPath = 'mobile.css';
+	$('.block dropdown').onclick(function (){
+		$('.dropdown-content').show();
+	});
+} else if (navigator.appName == 'Microsoft Internet Explorer') {
+	cssPath = 'ie.css';
 }
 
 var fileref = document.createElement('link');

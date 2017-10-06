@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NoFox Web Development</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="preload" href="imgs/DarkBackground.jpg" as="image">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/style.js"></script>
+	<script src="https://use.fontawesome.com/eccbbca379.js"></script>
+</head>
+
+<body>
+	<div class="row">
+		<div style="position:absolute; left:0px; margin: 0 0 0 25px;">
+			<svg width="15px" height="0px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<img src="imgs/svg/FoxHead.png" heigth="75px" width="75px"/>
+			</svg>
+		</div>
+		<div style="position:absolute; right:0px; margin: 25px 75px 0 0;">
+			<div class="block" style="cursor: pointer;" onclick="window.location='index.html';"><i class="fa fa-home" aria-hidden="true"></i>HOME</div>
+			<div class="block dropdown" style="cursor: default;"><i class="fa fa-code" aria-hidden="true"></i>PROJECTS
+				<div class="dropdown-content">
+					<hr />
+					<div class="block" style="cursor:pointer;" onclick="window.location='quicklist.html';"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;QUICK LIST</div> <hr />
+					<div class="block" style="cursor:pointer;" onclick="window.location='jsgame.html';"><i class="fa fa-gamepad" aria-hidden="true"></i>&nbsp;JS TENNIS</div> <hr />
+					<div class="block" style="cursor:pointer;" onclick="window.location='#';"><i class="fa fa-file-code-o" aria-hidden="true"></i>&nbsp;SOME STUFF I MADE<br />(Placeholder)</div> <hr />
+				</div>
+			</div>
+		<div class="block" style="cursor: pointer;" onclick="window.location='aboutme.html';"><i class="fa fa-id-card" aria-hidden="true"></i>ABOUT ME</div>
+		<div class="block" style="cursor: pointer;" onclick="window.location='testimonials.html';"><i class="fa fa-comments-o" aria-hidden="true"></i>TESTIMONIALS</div>
+		</div>
+	</div>
+
+	<div class="header">
+		<h1>Let's Build Something Brilliant</h1>
+	</div>
+
+	<div class="circleBase circleLarge" id="logoCircle">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="55%" height="55%">
+			<defs>
+				<path id="fox" 
+		          fill="none" stroke="#D84700" stroke-width="1" 
+		          stroke-dasharray="866px"
+		          stroke-dashoffset="866px"
+		          d="M382.81 54.69L382.81 296.88 117.19 296.88 382.81 54.69ZM117.19 296.88L382.81 296.88 117.19 54.69 117.19 296.88ZM382.81 296.88L250 417.97 117.19 296.88M382.81 54.69L250 417.97 117.19 54.69M250 417.97L250 175.78M210.94 312.5L183.59 296.88M316.41 296.88L289.06 312.5M261.72 386.23L238.28 386.23"/>
+			</defs>
+			<use xlink:href="#fox" opacity="1" fill-opacity="0" stroke="#D84700" stroke-width=".75" stroke-opacity="1"/>
+		</svg>
+	</div>
+
+	<div class="text">
+		<p>
+			Ever since I was a child, I've been fascinated by computers. That a series of electrons flowing in specific patterns in controlled intervals could translate to everything from exploring a virtual alien world to accessing literally all of the information known to humanity was nothing short of miraculous to me. As I learned more about computers, programming, and how the development process worked, it only fed my drive to become a part of the world that made these miracles happen.<br /><br />
+
+			As a self-taught "developer" I've worked to learn as much as possible about front end website development, from simple HTML and CSS to more in-depth processes like JavaScript, jQuery, Sassy CSS, Bootstrap, and SVG design and animation. Every day I push myself to take on a new challenge, learn a new skill, or improve the skills I have. <br /><br />
+
+			Though I lack a formal education in programming, I have a strong desire to learn and to begin truly taking my first steps within this career. If you are visiting this site, it is my hope it will help show my drive and my potential to join your development team today!
+		</p>
+	</div>
+
+</body>
+</html>

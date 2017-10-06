@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NoFox Web Development</title>
+
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://use.fontawesome.com/eccbbca379.js"></script>
+	<script src="js/quicklist.js"></script>
+</head>
+
+<body>
+	<div class="row">
+		<div style="position:absolute; left:0px; margin: 0 0 0 25px;">
+			<svg width="15px" height="0px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+				<img src="imgs/svg/FoxHead.svg" heigth="75px" width="75px"/>
+			</svg>
+		</div>
+		<div style="position:absolute; right:0px; margin: 25px 75px 0 0;">
+			<div class="block" style="cursor: pointer;" onclick="window.location='index.html';"><i class="fa fa-home" aria-hidden="true"></i>HOME</div>
+			<div class="block dropdown" style="cursor: default;"><i class="fa fa-code" aria-hidden="true"></i>PROJECTS
+				<div class="dropdown-content">
+					<hr />
+					<div class="block" style="cursor:pointer;" onclick="window.location='otherprojects.html';"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;SIDE PROJECTS</div> <hr />
+					<div class="block" style="cursor:pointer;" onclick="window.location='jsgame.html';"><i class="fa fa-gamepad" aria-hidden="true"></i>&nbsp;JS TENNIS</div> <hr />
+					<div class="block" style="cursor:pointer;" onclick="window.location='#';"><i class="fa fa-file-code-o" aria-hidden="true"></i>&nbsp;SOME STUFF I MADE</div> <hr />
+				</div>
+			</div>
+		<div class="block" style="cursor: pointer;" onclick="window.location='aboutme.html';"><i class="fa fa-id-card" aria-hidden="true"></i>ABOUT ME</div>
+		<div class="block" style="cursor: pointer;" onclick="window.location='testimonials.html';"><i class="fa fa-comments-o" aria-hidden="true"></i>TESTIMONIALS</div>
+		</div>
+	</div>
+
+	<div class="header">
+		<h1>Side Projects</h1>
+	</div>
+
+	<div class="quickBio">
+		<h2>This CV Site</h2>
+		<p>This site was designed and hand coded by yours truly as a way of showcasing my skills and coding abilities, as well as a way for me to chronicle my journey of learning and self-teaching. The repository with minor version controlling can be found <a href="https://github.com/NoFoxDevelopment/NoFoxWebDevCV">HERE</a></p><hr>
+	</div>
+
+	
+</body>
+</html>
