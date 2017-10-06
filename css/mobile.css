@@ -73,6 +73,7 @@ canvas {
   padding: 6px 6px;
   z-index: 1; }
 
+.dropdown:hover .dropdown-content,
 .dropdown:active .dropdown-content {
   display: block; }
 
