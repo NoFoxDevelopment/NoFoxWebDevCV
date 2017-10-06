@@ -177,6 +177,8 @@ svg {
 svg path {
   fill-opacity: 0;
   stroke: #D84700;
-  stroke-width: 1.75; }
+  stroke-width: 1.75;
+  stroke-dashoffset: "0px";
+  stroke-dasharray: "0px"; }
 
 /*# sourceMappingURL=ie.css.map */
