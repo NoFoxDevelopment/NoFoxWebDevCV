@@ -9,7 +9,7 @@ if (typeof window.orientation !== 'undefined') {
 	$('.block dropdown').onclick(function (){
 		$('.dropdown-content').show();
 	});
-} else if (navigator.appName == 'Microsoft Internet Explorer') {
+} else if (navigator.appName == 'Microsoft Internet Explorer' || 'Netscape') {
 	cssPath = 'ie.css';
 }
 
