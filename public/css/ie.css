@@ -174,4 +174,10 @@ svg {
   position: absolute;
   margin-top: 2%; }
 
-/*# sourceMappingURL=mobile.css.map */
+#fox {
+  fill-opacity: 0;
+  stroke: #D84700;
+  stroke-width: 1.75;
+  stroke-dashoffset: 0; }
+
+/*# sourceMappingURL=ie.css.map */

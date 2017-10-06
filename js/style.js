@@ -2,17 +2,13 @@ $(document).ready(function() {
 	$('#logoCircle').fadeIn(750);
 });
 
-var cssPath = 'style.css';
+var cssPath = '/css/style.css';
 var version = detectIE();
 
 if (typeof window.orientation !== 'undefined') {
-	cssPath = 'mobile.css';
-	$('.block dropdown').onclick(function (){
-		$('.dropdown-content').show();
-	});
+	cssPath = '/css/mobile.css';
 } else if (version != false) {
-	cssPath = 'ie.css';
-	$('#fox').css({strokeDashoffset: 0});
+	cssPath = '/css/ie.css';
 }
 
 function detectIE() {

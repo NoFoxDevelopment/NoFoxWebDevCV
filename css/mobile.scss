@@ -84,7 +84,7 @@ canvas {
 	z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:active .dropdown-content {
 	display: block;
 }
 
@@ -195,4 +195,10 @@ canvas {
 svg {
   position: absolute;
   margin-top: 2%;
+}
+
+svg path {
+	fill-opacity: 0;
+	stroke: #D84700;
+	stroke-width: 1.75;
 }
