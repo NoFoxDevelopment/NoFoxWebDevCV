@@ -1,16 +1,15 @@
 /****************************************************
 *     JS Tennis: A simple Pong-like game for JS     *
-*           Written by NoFoxDevelopment             *
-*                  Find my CV @                     *
-* https://github.com/NoFoxDevelopment/NoFoxWebDevCV *
+*            Written by NoFoxDevelopment            *
+*         Find my CV @ nofoxdevelopment.com         *
 ****************************************************/
 
-/********************************************
-* TODO:                                     *
-*       -give ball random start trajectory. *
-*       -experiment with different AIs.     *
-*       -optimize ball bounce in re: paddle *
-********************************************/
+/**************************************************
+* TODO:                                           *
+*       -give ball random start trajectory.       *
+*       -experiment with different AIs.           *
+*       -optimize ball bounce in re: paddle       *
+**************************************************/
 
 /*jslint browser:true*/ //unfucks jslint for SublimeText.
 
